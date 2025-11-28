@@ -50,7 +50,6 @@ export default function Register() {
     <div>
       <h2 className="text-lg font-bold mb-4">Register</h2>
       <AuthForm
-        // add confirmPassword field to form
         fields={[
           { name: "name", label: "Full name" },
           { name: "email", label: "Email", type: "email" },
